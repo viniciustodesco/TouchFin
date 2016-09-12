@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* touch12ifAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* touch12ifAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* touch12ifViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* touch12ifViewController.xib */; };
+		28D7ACF80DDB3853001CB0EB /* touch12ifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* touch12ifViewController.m */; };
+		8735F01863D1F118CBC0557A /* libPods-touch12if.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C87B28DA848D13069E92EA /* libPods-touch12if.a */; };
+		B90CB8B21A84FA7400ED56CA /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90CB8B11A84FA7400ED56CA /* GoogleMobileAds.framework */; };
+		B91328D917ECE04E00A4D72B /* iconhi120.png in Resources */ = {isa = PBXBuildFile; fileRef = B91328D817ECDF1600A4D72B /* iconhi120.png */; };
+		B92309141BB1D86300230DC6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92309131BB1D86300230DC6 /* CoreMedia.framework */; };
+		B92309161BB1D8DA00230DC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92309151BB1D8DA00230DC6 /* QuartzCore.framework */; };
+		B9298C351410532800FCDC83 /* iconlo.png in Resources */ = {isa = PBXBuildFile; fileRef = B9298C341410532800FCDC83 /* iconlo.png */; };
+		B9298C371410533400FCDC83 /* iconhi.png in Resources */ = {isa = PBXBuildFile; fileRef = B9298C361410533400FCDC83 /* iconhi.png */; };
+		B9298C39141053D700FCDC83 /* iconipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B9298C38141053D700FCDC83 /* iconipad.png */; };
+		B949524F173718A20094715E /* hp12c-cropped-1024-5.png in Resources */ = {isa = PBXBuildFile; fileRef = B949524E173718A20094715E /* hp12c-cropped-1024-5.png */; };
+		B94A223D1736FF2A006A7F32 /* touch12ifViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94A223C1736FF2A006A7F32 /* touch12ifViewController_iPhone5.xib */; };
+		B981970D140FC27F004C4A16 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B981970C140FC27F004C4A16 /* index.html */; };
+		B981973B140FC92F004C4A16 /* hp12c-min-android.js in Resources */ = {isa = PBXBuildFile; fileRef = B981973A140FC92F004C4A16 /* hp12c-min-android.js */; };
+		B981973D140FC954004C4A16 /* hp12c-iphone.css in Resources */ = {isa = PBXBuildFile; fileRef = B981973C140FC954004C4A16 /* hp12c-iphone.css */; };
+		B981973F140FC95D004C4A16 /* hp12c-iphone-patch.js in Resources */ = {isa = PBXBuildFile; fileRef = B981973E140FC95D004C4A16 /* hp12c-iphone-patch.js */; };
+		B99827371B7293B200849352 /* Splash.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99827361B7293B200849352 /* Splash.xib */; };
+		B9AE38B21736F50A004BFBD5 /* index5.html in Resources */ = {isa = PBXBuildFile; fileRef = B9AE38B01736F50A004BFBD5 /* index5.html */; };
+		B9AE38B31736F50A004BFBD5 /* hp12c-coords-5h.js in Resources */ = {isa = PBXBuildFile; fileRef = B9AE38B11736F50A004BFBD5 /* hp12c-coords-5h.js */; };
+		B9AE38B91736F51A004BFBD5 /* hp12c-coords-h.js in Resources */ = {isa = PBXBuildFile; fileRef = B9AE38B51736F51A004BFBD5 /* hp12c-coords-h.js */; };
+		B9BC8E7B1410FFE5004C6059 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BC8E7A1410FFE5004C6059 /* AudioToolbox.framework */; };
+		B9BC8E7D1411021E004C6059 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9BC8E7C1411021E004C6059 /* click.wav */; };
+		B9C7D0AD16113EFF00E15A49 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9C7D0AC16113EFF00E15A49 /* Settings.bundle */; };
+		B9C7D0AF16113F0900E15A49 /* clickoff.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9C7D0AE16113F0900E15A49 /* clickoff.wav */; };
+		B9CB9FCC16B808C400CF567B /* 11_lcdt.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FBF16B808C400CF567B /* 11_lcdt.png */; };
+		B9CB9FCD16B808C400CF567B /* 11_lcdp.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC016B808C400CF567B /* 11_lcdp.png */; };
+		B9CB9FCE16B808C400CF567B /* 11_lcdg.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC116B808C400CF567B /* 11_lcdg.png */; };
+		B9CB9FCF16B808C400CF567B /* 11_lcdf.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC216B808C400CF567B /* 11_lcdf.png */; };
+		B9CB9FD016B808C400CF567B /* 11_lcde.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC316B808C400CF567B /* 11_lcde.png */; };
+		B9CB9FD116B808C400CF567B /* 11_lcdd.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC416B808C400CF567B /* 11_lcdd.png */; };
+		B9CB9FD216B808C400CF567B /* 11_lcdc.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC516B808C400CF567B /* 11_lcdc.png */; };
+		B9CB9FD316B808C400CF567B /* 11_lcdb.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC616B808C400CF567B /* 11_lcdb.png */; };
+		B9CB9FD416B808C400CF567B /* 11_lcda.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC716B808C400CF567B /* 11_lcda.png */; };
+		B9CB9FD516B808C400CF567B /* 11_lcd_orig.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CB9FC816B808C400CF567B /* 11_lcd_orig.png */; };
+		B9D3DE131410031D00B12FA2 /* lcda.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE0A1410031D00B12FA2 /* lcda.png */; };
+		B9D3DE141410031D00B12FA2 /* lcdb.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE0B1410031D00B12FA2 /* lcdb.png */; };
+		B9D3DE151410031D00B12FA2 /* lcdc.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE0C1410031D00B12FA2 /* lcdc.png */; };
+		B9D3DE161410031D00B12FA2 /* lcdd.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE0D1410031D00B12FA2 /* lcdd.png */; };
+		B9D3DE171410031D00B12FA2 /* lcde.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE0E1410031D00B12FA2 /* lcde.png */; };
+		B9D3DE181410031D00B12FA2 /* lcdf.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE0F1410031D00B12FA2 /* lcdf.png */; };
+		B9D3DE191410031D00B12FA2 /* lcdg.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE101410031D00B12FA2 /* lcdg.png */; };
+		B9D3DE1A1410031D00B12FA2 /* lcdp.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE111410031D00B12FA2 /* lcdp.png */; };
+		B9D3DE1B1410031D00B12FA2 /* lcdt.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D3DE121410031D00B12FA2 /* lcdt.png */; };
+		B9DBD1041C07B1C20049172D /* hp12c-cropped-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B9DBD1031C07B1C20049172D /* hp12c-cropped-1024.png */; };
+		B9F0ED951A24B60500145017 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0ED941A24B60500145017 /* AdSupport.framework */; };
+		B9F0ED971A24B61500145017 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0ED961A24B61500145017 /* EventKitUI.framework */; };
+		B9F0ED9B1A24B62F00145017 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0ED9A1A24B62F00145017 /* SystemConfiguration.framework */; };
+		B9F0ED9D1A24B64100145017 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0ED9C1A24B64100145017 /* CoreTelephony.framework */; };
+		B9F0ED9F1A24B64D00145017 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0ED9E1A24B64D00145017 /* AVFoundation.framework */; };
+		B9F0EDA11A24B66100145017 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0EDA01A24B66100145017 /* EventKit.framework */; };
+		B9F0EDA31A24B67900145017 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0EDA21A24B67900145017 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F962E4D10E480EB6AF8F69E /* Pods-touch12if.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touch12if.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-touch12if/Pods-touch12if.distribution.xcconfig"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* touch12ifAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touch12ifAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* touch12ifAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = touch12ifAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* touch12if.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touch12if.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* touch12ifViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = touch12ifViewController.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* touch12ifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touch12ifViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* touch12ifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = touch12ifViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* touch12if_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touch12if_Prefix.pch; sourceTree = "<group>"; };
+		38C87B28DA848D13069E92EA /* libPods-touch12if.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-touch12if.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D8A30FD0E7DCB082FA7779 /* Pods-touch12if.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touch12if.debug.xcconfig"; path = "Pods/Target Support Files/Pods-touch12if/Pods-touch12if.debug.xcconfig"; sourceTree = "<group>"; };
+		7C480B0D9D7A7130A468D662 /* Pods-touch12if.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-touch12if.release.xcconfig"; path = "Pods/Target Support Files/Pods-touch12if/Pods-touch12if.release.xcconfig"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* touch12if-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "touch12if-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B90CB8B11A84FA7400ED56CA /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B91328D817ECDF1600A4D72B /* iconhi120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconhi120.png; sourceTree = "<group>"; };
+		B92309131BB1D86300230DC6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B92309151BB1D8DA00230DC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B9298C341410532800FCDC83 /* iconlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconlo.png; sourceTree = "<group>"; };
+		B9298C361410533400FCDC83 /* iconhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconhi.png; sourceTree = "<group>"; };
+		B9298C38141053D700FCDC83 /* iconipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconipad.png; sourceTree = "<group>"; };
+		B949524E173718A20094715E /* hp12c-cropped-1024-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hp12c-cropped-1024-5.png"; sourceTree = "<group>"; };
+		B94A223C1736FF2A006A7F32 /* touch12ifViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = touch12ifViewController_iPhone5.xib; sourceTree = "<group>"; };
+		B981970C140FC27F004C4A16 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B981973A140FC92F004C4A16 /* hp12c-min-android.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "hp12c-min-android.js"; sourceTree = "<group>"; };
+		B981973C140FC954004C4A16 /* hp12c-iphone.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "hp12c-iphone.css"; sourceTree = "<group>"; };
+		B981973E140FC95D004C4A16 /* hp12c-iphone-patch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "hp12c-iphone-patch.js"; sourceTree = "<group>"; };
+		B99827361B7293B200849352 /* Splash.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Splash.xib; path = ../touch12i/Splash.xib; sourceTree = "<group>"; };
+		B99D1CD71CEF8E3B00BB09E3 /* touch12ifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touch12ifUITests.swift; sourceTree = "<group>"; };
+		B99D1CD91CEF8E3B00BB09E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AE38B01736F50A004BFBD5 /* index5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index5.html; sourceTree = "<group>"; };
+		B9AE38B11736F50A004BFBD5 /* hp12c-coords-5h.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "hp12c-coords-5h.js"; sourceTree = "<group>"; };
+		B9AE38B51736F51A004BFBD5 /* hp12c-coords-h.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "hp12c-coords-h.js"; sourceTree = "<group>"; };
+		B9BC8E7A1410FFE5004C6059 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B9BC8E7C1411021E004C6059 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click.wav; path = html/click.wav; sourceTree = "<group>"; };
+		B9C7D0AC16113EFF00E15A49 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B9C7D0AE16113F0900E15A49 /* clickoff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clickoff.wav; path = html/clickoff.wav; sourceTree = "<group>"; };
+		B9CB9FBF16B808C400CF567B /* 11_lcdt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdt.png; sourceTree = "<group>"; };
+		B9CB9FC016B808C400CF567B /* 11_lcdp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdp.png; sourceTree = "<group>"; };
+		B9CB9FC116B808C400CF567B /* 11_lcdg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdg.png; sourceTree = "<group>"; };
+		B9CB9FC216B808C400CF567B /* 11_lcdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdf.png; sourceTree = "<group>"; };
+		B9CB9FC316B808C400CF567B /* 11_lcde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcde.png; sourceTree = "<group>"; };
+		B9CB9FC416B808C400CF567B /* 11_lcdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdd.png; sourceTree = "<group>"; };
+		B9CB9FC516B808C400CF567B /* 11_lcdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdc.png; sourceTree = "<group>"; };
+		B9CB9FC616B808C400CF567B /* 11_lcdb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcdb.png; sourceTree = "<group>"; };
+		B9CB9FC716B808C400CF567B /* 11_lcda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcda.png; sourceTree = "<group>"; };
+		B9CB9FC816B808C400CF567B /* 11_lcd_orig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_lcd_orig.png; sourceTree = "<group>"; };
+		B9D0553A1C999870001C1088 /* touch12if-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touch12if-Bridging-Header.h"; sourceTree = "<group>"; };
+		B9D3DE0A1410031D00B12FA2 /* lcda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcda.png; sourceTree = "<group>"; };
+		B9D3DE0B1410031D00B12FA2 /* lcdb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdb.png; sourceTree = "<group>"; };
+		B9D3DE0C1410031D00B12FA2 /* lcdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdc.png; sourceTree = "<group>"; };
+		B9D3DE0D1410031D00B12FA2 /* lcdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdd.png; sourceTree = "<group>"; };
+		B9D3DE0E1410031D00B12FA2 /* lcde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcde.png; sourceTree = "<group>"; };
+		B9D3DE0F1410031D00B12FA2 /* lcdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdf.png; sourceTree = "<group>"; };
+		B9D3DE101410031D00B12FA2 /* lcdg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdg.png; sourceTree = "<group>"; };
+		B9D3DE111410031D00B12FA2 /* lcdp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdp.png; sourceTree = "<group>"; };
+		B9D3DE121410031D00B12FA2 /* lcdt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lcdt.png; sourceTree = "<group>"; };
+		B9DBD1031C07B1C20049172D /* hp12c-cropped-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hp12c-cropped-1024.png"; sourceTree = "<group>"; };
+		B9F0ED941A24B60500145017 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B9F0ED961A24B61500145017 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		B9F0ED9A1A24B62F00145017 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B9F0ED9C1A24B64100145017 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B9F0ED9E1A24B64D00145017 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9F0EDA01A24B66100145017 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		B9F0EDA21A24B67900145017 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92309161BB1D8DA00230DC6 /* QuartzCore.framework in Frameworks */,
+				B92309141BB1D86300230DC6 /* CoreMedia.framework in Frameworks */,
+				B9F0EDA31A24B67900145017 /* MessageUI.framework in Frameworks */,
+				B9F0EDA11A24B66100145017 /* EventKit.framework in Frameworks */,
+				B90CB8B21A84FA7400ED56CA /* GoogleMobileAds.framework in Frameworks */,
+				B9F0ED9F1A24B64D00145017 /* AVFoundation.framework in Frameworks */,
+				B9F0ED9D1A24B64100145017 /* CoreTelephony.framework in Frameworks */,
+				B9F0ED9B1A24B62F00145017 /* SystemConfiguration.framework in Frameworks */,
+				B9F0ED971A24B61500145017 /* EventKitUI.framework in Frameworks */,
+				B9F0ED951A24B60500145017 /* AdSupport.framework in Frameworks */,
+				B9BC8E7B1410FFE5004C6059 /* AudioToolbox.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				8735F01863D1F118CBC0557A /* libPods-touch12if.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* touch12ifAppDelegate.h */,
+				1D3623250D0F684500981E51 /* touch12ifAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* touch12ifViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* touch12ifViewController.m */,
+				B9D0553A1C999870001C1088 /* touch12if-Bridging-Header.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* touch12if.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B91328D817ECDF1600A4D72B /* iconhi120.png */,
+				B9C7D0AC16113EFF00E15A49 /* Settings.bundle */,
+				B9BC8E7A1410FFE5004C6059 /* AudioToolbox.framework */,
+				B9298C38141053D700FCDC83 /* iconipad.png */,
+				B9298C361410533400FCDC83 /* iconhi.png */,
+				B9298C341410532800FCDC83 /* iconlo.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				B99D1CD61CEF8E3B00BB09E3 /* touch12ifUITests */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CA3E22AE54FCF07A6BCE8F10 /* Pods */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* touch12if_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B99827361B7293B200849352 /* Splash.xib */,
+				2899E5210DE3E06400AC0155 /* touch12ifViewController.xib */,
+				B94A223C1736FF2A006A7F32 /* touch12ifViewController_iPhone5.xib */,
+				B9C7D0AE16113F0900E15A49 /* clickoff.wav */,
+				B9BC8E7C1411021E004C6059 /* click.wav */,
+				B981970B140FC27F004C4A16 /* html */,
+				8D1107310486CEB800E47090 /* touch12if-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B92309151BB1D8DA00230DC6 /* QuartzCore.framework */,
+				B92309131BB1D86300230DC6 /* CoreMedia.framework */,
+				B90CB8B11A84FA7400ED56CA /* GoogleMobileAds.framework */,
+				B9F0EDA21A24B67900145017 /* MessageUI.framework */,
+				B9F0EDA01A24B66100145017 /* EventKit.framework */,
+				B9F0ED9E1A24B64D00145017 /* AVFoundation.framework */,
+				B9F0ED9C1A24B64100145017 /* CoreTelephony.framework */,
+				B9F0ED9A1A24B62F00145017 /* SystemConfiguration.framework */,
+				B9F0ED961A24B61500145017 /* EventKitUI.framework */,
+				B9F0ED941A24B60500145017 /* AdSupport.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				38C87B28DA848D13069E92EA /* libPods-touch12if.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B981970B140FC27F004C4A16 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				B9DBD1031C07B1C20049172D /* hp12c-cropped-1024.png */,
+				B949524E173718A20094715E /* hp12c-cropped-1024-5.png */,
+				B9AE38B51736F51A004BFBD5 /* hp12c-coords-h.js */,
+				B9AE38B01736F50A004BFBD5 /* index5.html */,
+				B9AE38B11736F50A004BFBD5 /* hp12c-coords-5h.js */,
+				B9CB9FBF16B808C400CF567B /* 11_lcdt.png */,
+				B9CB9FC016B808C400CF567B /* 11_lcdp.png */,
+				B9CB9FC116B808C400CF567B /* 11_lcdg.png */,
+				B9CB9FC216B808C400CF567B /* 11_lcdf.png */,
+				B9CB9FC316B808C400CF567B /* 11_lcde.png */,
+				B9CB9FC416B808C400CF567B /* 11_lcdd.png */,
+				B9CB9FC516B808C400CF567B /* 11_lcdc.png */,
+				B9CB9FC616B808C400CF567B /* 11_lcdb.png */,
+				B9CB9FC716B808C400CF567B /* 11_lcda.png */,
+				B9CB9FC816B808C400CF567B /* 11_lcd_orig.png */,
+				B9D3DE0A1410031D00B12FA2 /* lcda.png */,
+				B9D3DE0B1410031D00B12FA2 /* lcdb.png */,
+				B9D3DE0C1410031D00B12FA2 /* lcdc.png */,
+				B9D3DE0D1410031D00B12FA2 /* lcdd.png */,
+				B9D3DE0E1410031D00B12FA2 /* lcde.png */,
+				B9D3DE0F1410031D00B12FA2 /* lcdf.png */,
+				B9D3DE101410031D00B12FA2 /* lcdg.png */,
+				B9D3DE111410031D00B12FA2 /* lcdp.png */,
+				B9D3DE121410031D00B12FA2 /* lcdt.png */,
+				B981973E140FC95D004C4A16 /* hp12c-iphone-patch.js */,
+				B981973C140FC954004C4A16 /* hp12c-iphone.css */,
+				B981973A140FC92F004C4A16 /* hp12c-min-android.js */,
+				B981970C140FC27F004C4A16 /* index.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		B99D1CD61CEF8E3B00BB09E3 /* touch12ifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B99D1CD71CEF8E3B00BB09E3 /* touch12ifUITests.swift */,
+				B99D1CD91CEF8E3B00BB09E3 /* Info.plist */,
+			);
+			path = touch12ifUITests;
+			sourceTree = "<group>";
+		};
+		CA3E22AE54FCF07A6BCE8F10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49D8A30FD0E7DCB082FA7779 /* Pods-touch12if.debug.xcconfig */,
+				7C480B0D9D7A7130A468D662 /* Pods-touch12if.release.xcconfig */,
+				0F962E4D10E480EB6AF8F69E /* Pods-touch12if.distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* touch12if */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "touch12if" */;
+			buildPhases = (
+				632CF5886794A58FCAF54E07 /* [CP] Check Pods Manifest.lock */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				53223E95978356D24D23048C /* [CP] Embed Pods Frameworks */,
+				F920F2AF5222AC1234F88808 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touch12if;
+			productName = touch12if;
+			productReference = 1D6058910D05DD3D006BFB54 /* touch12if.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = epx.com.br;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = LUPFH54KMA;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "touch12if" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* touch12if */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE38B31736F50A004BFBD5 /* hp12c-coords-5h.js in Resources */,
+				2899E5220DE3E06400AC0155 /* touch12ifViewController.xib in Resources */,
+				B981970D140FC27F004C4A16 /* index.html in Resources */,
+				B981973B140FC92F004C4A16 /* hp12c-min-android.js in Resources */,
+				B981973F140FC95D004C4A16 /* hp12c-iphone-patch.js in Resources */,
+				B99827371B7293B200849352 /* Splash.xib in Resources */,
+				B981973D140FC954004C4A16 /* hp12c-iphone.css in Resources */,
+				B9D3DE131410031D00B12FA2 /* lcda.png in Resources */,
+				B9D3DE141410031D00B12FA2 /* lcdb.png in Resources */,
+				B9D3DE151410031D00B12FA2 /* lcdc.png in Resources */,
+				B9D3DE161410031D00B12FA2 /* lcdd.png in Resources */,
+				B9D3DE171410031D00B12FA2 /* lcde.png in Resources */,
+				B9D3DE181410031D00B12FA2 /* lcdf.png in Resources */,
+				B9D3DE191410031D00B12FA2 /* lcdg.png in Resources */,
+				B9D3DE1A1410031D00B12FA2 /* lcdp.png in Resources */,
+				B9D3DE1B1410031D00B12FA2 /* lcdt.png in Resources */,
+				B9298C351410532800FCDC83 /* iconlo.png in Resources */,
+				B9298C371410533400FCDC83 /* iconhi.png in Resources */,
+				B9298C39141053D700FCDC83 /* iconipad.png in Resources */,
+				B9BC8E7D1411021E004C6059 /* click.wav in Resources */,
+				B9C7D0AD16113EFF00E15A49 /* Settings.bundle in Resources */,
+				B9DBD1041C07B1C20049172D /* hp12c-cropped-1024.png in Resources */,
+				B9C7D0AF16113F0900E15A49 /* clickoff.wav in Resources */,
+				B91328D917ECE04E00A4D72B /* iconhi120.png in Resources */,
+				B9CB9FCC16B808C400CF567B /* 11_lcdt.png in Resources */,
+				B9CB9FCD16B808C400CF567B /* 11_lcdp.png in Resources */,
+				B9CB9FCE16B808C400CF567B /* 11_lcdg.png in Resources */,
+				B9CB9FCF16B808C400CF567B /* 11_lcdf.png in Resources */,
+				B9CB9FD016B808C400CF567B /* 11_lcde.png in Resources */,
+				B9CB9FD116B808C400CF567B /* 11_lcdd.png in Resources */,
+				B9CB9FD216B808C400CF567B /* 11_lcdc.png in Resources */,
+				B9CB9FD316B808C400CF567B /* 11_lcdb.png in Resources */,
+				B9CB9FD416B808C400CF567B /* 11_lcda.png in Resources */,
+				B9CB9FD516B808C400CF567B /* 11_lcd_orig.png in Resources */,
+				B9AE38B21736F50A004BFBD5 /* index5.html in Resources */,
+				B9AE38B91736F51A004BFBD5 /* hp12c-coords-h.js in Resources */,
+				B94A223D1736FF2A006A7F32 /* touch12ifViewController_iPhone5.xib in Resources */,
+				B949524F173718A20094715E /* hp12c-cropped-1024-5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53223E95978356D24D23048C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touch12if/Pods-touch12if-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632CF5886794A58FCAF54E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F920F2AF5222AC1234F88808 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-touch12if/Pods-touch12if-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* touch12ifAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* touch12ifViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D8A30FD0E7DCB082FA7779 /* Pods-touch12if.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = touch12if_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "touch12if-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.epx.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = touch12if;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/touch12if-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C480B0D9D7A7130A468D662 /* Pods-touch12if.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = touch12if_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "touch12if-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.epx.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = touch12if;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/touch12if-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BC37181415CC5200AB184B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		B9BC37191415CC5200AB184B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F962E4D10E480EB6AF8F69E /* Pods-touch12if.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = touch12if_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "touch12if-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.epx.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = touch12if;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/touch12if-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "touch12if" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B9BC37191415CC5200AB184B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "touch12if" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B9BC37181415CC5200AB184B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

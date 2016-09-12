@@ -1,0 +1,6 @@
+build/
+.DS_Store
+touch12if.xcodeproj/xcuserdata
+touch12if.xcodeproj/epx*
+Pods/Pods.xcodeproj/xcuserdata/
+touch12if.xcworkspace/xcuserdata/
